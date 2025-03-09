@@ -1,0 +1,14 @@
+import unittest
+class TestOceanCurrent(unittest.TestCase):
+    def test_create_ocean_current(self):
+        current = OceanCurrent("Gulf Stream", 5)
+        self.assertEqual(current.name, "Gulf Stream")
+        self.assertEqual(current.speed, 5)
+
+    def test_ocean_current_str(self):
+        current = OceanCurrent("Gulf Stream", 5)
+        expected_str = "Current: Gulf Stream, Speed: 5"
+        self.assertEqual(str(current), expected_str)
+
+if __name__ == '__main__':
+    unittest.main()
