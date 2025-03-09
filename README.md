@@ -1,6 +1,6 @@
 # marine-technology
 
-This project implements a simply library management system using object-oriented programming in Python.
+This project implements a simply marine civilization system using object-oriented programming in Python.
 
 # Instalation
 
